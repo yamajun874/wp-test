@@ -10,7 +10,6 @@ License: テーマのライセンス
 License URI: テーマのライセンスのURL
 */
 
-
 .background-image {
   background: whitesmoke;
 }
@@ -101,8 +100,6 @@ License URI: テーマのライセンスのURL
   width: 30%;
   margin-bottom: 30px;
 }
-
-
 
 .post-card__pics img {
   width: 100%;
@@ -249,6 +246,89 @@ footer small {
   font-size: 15px;
 }
 
+/* HTML, CSS,javascript,PHP,mysql共通 */
+.first-view--color {
+  background: deeppink;
+  position: relative;
+  height: 250px;
+  margin: 20px 0;
+}
+
+/* single.html */
+
+.single-background {
+  background: rgb(223, 213, 213);
+  padding: 60px 0;
+}
+
+.single-content {
+  background:whitesmoke;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.single-header {
+  padding: 40px 20px;
+}
+
+.single-category {
+  text-decoration: none;
+  background: deeppink;
+  color: white;
+  display: inline-block;
+  border-radius: 15px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.single-ttl {
+  color: rgb(165, 153, 153);
+  font-size: 33px;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.single-date {
+  color: rgb(165, 153, 153);
+}
+
+.single-pics img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.main-text {
+  color: rgb(165, 153, 153);
+  line-height: 25px;
+  padding: 40px 20px;
+}
+
+.main-text p, .main-text h2, .main-text h3, .main-text h4 {
+  margin-bottom: 20px;
+}
+
+.main-text p:last-child {
+  margin-bottom: 0;
+}
+
+.main-text h2 {
+  font-size: 25px;
+}
+
+.main-text h3 {
+  font-size: 22px;
+  border-left: 8px solid deeppink;
+  padding-left: 10px;
+}
+
+.main-text h4 {
+  font-size: 18px;
+}
 
 
 
@@ -287,13 +367,12 @@ footer small {
   padding: 70px 0 30px 0;
   border-top: 1px solid grey;
 }
+
+  .single-content {
+  width: 90%;
 }
 
-/* HTML, CSS,javascript,PHP,mysql共通 */
-.first-view--color {
-  background: deeppink;
-  position: relative;
-  height: 250px;
-  margin: 20px 0;
+  .single-ttl {
+    font-size: 25px;
+  }
 }
-

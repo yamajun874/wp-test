@@ -13,19 +13,19 @@
     <h1 class="category-ttl">Category</h1>
     <table class="category-table">
       <tr>
-        <td><a href="HTML.html">HTML</a></td>
+        <td><a href="<?php echo get_category_link(7); ?>">HTML</a></td>
       </tr>
       <tr>
-        <td><a href="CSS.html">CSS</a></td>
+        <td><a href="<?php echo get_category_link(6); ?>">CSS</a></td>
       </tr>
       <tr>
-        <td><a href="javascript.html">JavaScript</a></td>
+        <td><a href="<?php echo get_category_link(5); ?>">JavaScript</a></td>
       </tr>
       <tr>
-        <td><a href="PHP.html">PHP</a></td>
+        <td><a href="<?php echo get_category_link(4); ?>">PHP</a></td>
       </tr>
       <tr>
-        <td><a href="mysql.html">MySQL</a></td>
+        <td><a href="<?php echo get_category_link(3); ?>">MySQL</a></td>
       </tr>
     </table>
   </div>

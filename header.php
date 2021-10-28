@@ -17,23 +17,22 @@
   <div class="background-image">
     <header>
       <div class="header-logo">
-        <a href="<?php esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/estramedia__logo.png" alt=""></a>
+        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/estramedia__logo.png" alt=""></a>
       </div>
-      <!-- header-listの相対パスはどうするか？ -->
       <nav class="header-list">
-        <a href="HTML.html" class="header-item">
+        <a href="<?php echo get_category_link(7); ?>" class="header-item">
           <li>HTML</li>
         </a>
-        <a href="CSS.html" class="header-item">
+        <a href="<?php echo get_category_link(6); ?>" class="header-item">
           <li>CSS</li>
         </a>
-        <a href="javascript.html" class="header-item">
+        <a href="<?php echo get_category_link(5); ?>" class="header-item">
           <li>JavaScript</li>
         </a>
-        <a href="PHP.html" class="header-item">
+        <a href="<?php echo get_category_link(4); ?>" class="header-item">
           <li>PHP</li>
         </a>
-        <a href="mysql.html" class="header-item">
+        <a href="<?php echo get_category_link(3); ?>" class="header-item">
           <li>MySQL</li>
         </a>
       </nav>

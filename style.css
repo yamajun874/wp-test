@@ -1,3 +1,16 @@
+@charset "utf-8";
+/*
+Theme Name: wp-test
+Theme URL: テーマのサイトのURL
+Description: テーマの説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURL
+*/
+
+
 .background-image {
   background: whitesmoke;
 }
@@ -29,7 +42,7 @@
 }
 
 .first-view {
-  background: url("../img/media__firstview.png");
+  background: url("img/media__firstview.png");
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -200,7 +213,7 @@
 
 .category-table td a::after {
   content: '';
-  background: url("../img/arrow.svg") no-repeat;
+  background: url("img/arrow.svg") no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -236,11 +249,51 @@ footer small {
   font-size: 15px;
 }
 
-/* first-view, footer, sidebarのprifileをレスポンシブ */
+
+
 
 @media screen and (max-width:760px){
   .introduction-logo img {
-  width: 80%;
+  padding: 60px 25px 60px 25px;
+  width: 20%;
+  display: block;
 }
 
+
+  .header-list {
+    display: none;
+  }
+
+  .first-view__ttl {
+  font-size: 40px;
 }
+  .content {
+  margin: 50px 20px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+  .post {
+  width: 100%;  
+}
+
+  .post-card {
+  width: 100%;
+  margin-bottom: 30px;
+}
+  .sidebar {
+  width: 100%;
+  padding: 70px 0 30px 0;
+  border-top: 1px solid grey;
+}
+}
+
+/* HTML, CSS,javascript,PHP,mysql共通 */
+.first-view--color {
+  background: deeppink;
+  position: relative;
+  height: 250px;
+  margin: 20px 0;
+}
+

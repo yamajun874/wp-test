@@ -99,6 +99,7 @@ License URI: テーマのライセンスのURL
 .post-card {
   width: 30%;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .post-card__pics img {
@@ -110,6 +111,8 @@ License URI: テーマのライセンスのURL
 
 .card-category {
   position: absolute;
+  top: 0;
+  left: 0;
   color: white;
   background: deeppink;
   width: 80px;

@@ -8,7 +8,7 @@
     <div class="post-card">
       <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
-          <a href="<?php the_permalink(); ?>">
+          <a href="<?php the_permalink(); ?>" class="post-card__pics">
             
               <?php if (has_post_thumbnail()) : ?>
                 <?php the_post_thumbnail(); ?>

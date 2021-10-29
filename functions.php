@@ -22,4 +22,14 @@ add_action('wp_enqueue_acripts', 'twpp_enqueue_styles');
 
 add_theme_support('post-thumbnails');
 
+
+function sort_postdata( $query ) {
+	if ( is_admin() || ! $query->is_main_query() ) {
+		return;
+	}
+	$query->set( 'order', 'ASC' );
+	$query->set( 'orderby', 'date' );
+}
+
+add_action( 'pre_get_posts', 'sort_postdata' );
 ?>

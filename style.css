@@ -126,8 +126,8 @@ License URI: テーマのライセンスのURL
 .post-card__comment {
   color: rgb(165, 153, 153);
   background: white;
-  max-height: 100px;
-  padding: 10px 10px 50px 10px;
+  min-height: 130px;
+  padding: 10px 10px 10px 10px;
   position: relative;
   border-radius: 0 0 15px 15px;
 }
